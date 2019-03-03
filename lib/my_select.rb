@@ -5,7 +5,7 @@ result = []
 
 while count < collection.size
   if yield(collection[count]) == true
-  result.push(array[count])
+  result.push(collection[count])
 end
   count+=1
 end
